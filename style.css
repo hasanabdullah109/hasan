@@ -1,0 +1,18 @@
+.img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+@media only screen and ( max-width: 600px){
+    .project_single-project-img{
+       width: 500px;
+    }
+}
+.project_single-project-img{
+    max-width: 250px;
+}
+
+h6{
+    color: darkcyan;
+}
